@@ -1,0 +1,78 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "generate-docs": {
+      "name": "generate-docs",
+      "command": "npm run generate-docs",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": true
+    },
+    "test-coverage": {
+      "name": "test-coverage",
+      "command": "npm run test-coverage",
+      "runAtStart": false
+    },
+    "coveralls": {
+      "name": "coveralls",
+      "command": "npm run coveralls",
+      "runAtStart": false
+    },
+    "browser-build": {
+      "name": "browser-build",
+      "command": "npm run browser-build",
+      "runAtStart": false
+    },
+    "clean-for-build": {
+      "name": "clean-for-build",
+      "command": "npm run clean-for-build",
+      "runAtStart": false
+    },
+    "build-commonjs-modules": {
+      "name": "build-commonjs-modules",
+      "command": "npm run build-commonjs-modules",
+      "runAtStart": false
+    },
+    "build-es6-modules": {
+      "name": "build-es6-modules",
+      "command": "npm run build-es6-modules",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build-styles": {
+      "name": "build-styles",
+      "command": "npm run build-styles",
+      "runAtStart": false
+    },
+    "fix-locales": {
+      "name": "fix-locales",
+      "command": "npm run fix-locales",
+      "runAtStart": false
+    },
+    "verify-flag-existence": {
+      "name": "verify-flag-existence",
+      "command": "npm run verify-flag-existence",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "npm run prepublishOnly",
+      "runAtStart": false
+    }
+  }
+}
